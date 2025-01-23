@@ -73,10 +73,10 @@ const Skills = () => {
                     imgSrc={imgSrc}
                     label={label}
                     desc={desc}
-
                     />
-                    // "skillcard"
+
                 ))
+                
             }
         </div>
 
