@@ -38,7 +38,7 @@ const About = () => {
 
                                 </div>
                                 
-                                <p className="text-sm text-zinc-400 md:text-lg">{label}</p>
+                                <p className="text-xs text-zinc-400 md:text-sm">{label}</p>
 
                             </div>
                         ))
@@ -49,7 +49,7 @@ const About = () => {
                     alt="Logo" 
                     width={40}
                     height={40}
-                    className='ml-auto md:w-[60px] md:h-[60px]'
+                    className='ml-auto md:w-[50px] md:h-[50px]'
                     />
                 </div>
             </div>

@@ -3,9 +3,9 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: "/images/figma.svg",
-    label: "Figma",
-    desc: "Design tool",
+    imgSrc: "/images/html.svg",
+    label: "HTML5",
+    desc: "Web Structure",
   },
   {
     imgSrc: "/images/css3.svg",
@@ -41,6 +41,16 @@ const skillItem = [
     imgSrc: "/images/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
+  },
+  {
+    imgSrc: "/images/photoshop.svg",
+    label: "Adobe Photoshop",
+    desc: "Image Editing",
+  },
+  {
+    imgSrc: "/images/illustrator.svg",
+    label: "Adobe Illustrator",
+    desc: "Designing",
   },
 ];
 
