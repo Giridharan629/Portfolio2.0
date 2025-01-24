@@ -1,8 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
+  const [nightMode, setNightModde] = useState(false);
+
+  useEffect(nightActivation,[nightMode])
+
+  function nightActivation(){
+    document.body.classList.toggle("night")
+  }
 
   return (
     <header className="fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-gradient-to-b from-zinc-900 to-zinc-900/0">
@@ -20,26 +27,48 @@ const Header = () => {
             />
           </a>
         </h1>
-        <div className="relative md:justify-self-center">
-          <button
-            className=" menu-btn md:hidden"
-            onClick={() => setNavOpen(!navOpen)}
-          >
-            {navOpen ? (
-              <span class="material-symbols-rounded">close</span>
+
+        <div className="flex items-center  gap-5">
+          <div className="menu-btn md:invisible" onClick={()=>setNightModde(!nightMode)}>
+            {nightMode ? (
+              <span className="material-symbols-rounded">dark_mode</span>
             ) : (
-              <span class="material-symbols-rounded">Menu</span>
+              <span className="material-symbols-rounded">light_mode</span>
             )}
-          </button>
-          <Navbar navOpen={navOpen} />
+          </div>
+
+          <div className="relative md:justify-self-center">
+            <button
+              className=" menu-btn md:hidden"
+              onClick={() => setNavOpen(!navOpen)}
+            >
+              {navOpen ? (
+                <span className="material-symbols-rounded">close</span>
+              ) : (
+                <span className="material-symbols-rounded">Menu</span>
+              )}
+            </button>
+            <Navbar navOpen={navOpen} />
+          </div>
         </div>
 
+        <div className="flex items-center gap-5 max-md:hidden">
+
+
+        <div className="menu-btn " onClick={()=>setNightModde(!nightMode)}>
+            {nightMode ? (
+              <span className="material-symbols-rounded">dark_mode</span>
+            ) : (
+              <span className="material-symbols-rounded">light_mode</span>
+            )}
+          </div>
         <a
           href="#contact"
-          className=" btn btn-secondary max-md:hidden md:justify-self-end"
+          className=" btn btn-secondary min-w-[110px] md:justify-self-end "
         >
           Contact Me
         </a>
+            </div>
       </div>
     </header>
   );

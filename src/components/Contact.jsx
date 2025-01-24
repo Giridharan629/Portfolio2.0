@@ -79,7 +79,7 @@ const Contact = () => {
   return (
     <section 
     id="contact" 
-    className="section"
+    className="section contact"
     >
 
       <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
@@ -87,7 +87,7 @@ const Contact = () => {
         <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
           <h2 className="headline-2 lg:maxw-[12ch]">Contact me for collaboration</h2>
 
-          <p className="text-zinc-400 mt-3 mb-8 maxw-[50ch] lg:max-w-[30ch]">
+          <p className="para text-zinc-400 mt-3 mb-8 maxw-[50ch] lg:max-w-[30ch]">
             Reach out today to discuss your project needs and start
             collaborating on something amazing!
           </p>

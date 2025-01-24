@@ -20,7 +20,7 @@ const About = () => {
     className="section">
         <div className="container">
             <div className=" bg-zinc-800/50 p-7 rounded-2xl md:p-12 ">
-                <p className=" text-zinc-300 mb-4 md:mb-8md
+                <p className="nightPara text-zinc-300 mb-4 md:mb-8md
                 text-xl md:max-w-[60ch]">
                 Welcome! I&apos;m Giri, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance.
                 </p>
@@ -38,7 +38,7 @@ const About = () => {
 
                                 </div>
                                 
-                                <p className="text-xs text-zinc-400 md:text-sm">{label}</p>
+                                <p className="smText text-xs text-zinc-400 md:text-sm">{label}</p>
 
                             </div>
                         ))

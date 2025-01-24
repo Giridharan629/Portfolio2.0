@@ -12,6 +12,14 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* headline night mode  */
+
+.night .headline-1, .night .headline-2{
+  background: -webkit-linear-gradient(0deg, #242424,#878791);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .headline-1{
   @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15] 
 }
@@ -56,6 +64,90 @@ html {
 body {
   @apply bg-zinc-900 text-zinc-50 h-[200vh];
 }
+
+/* .night */
+
+body.night{
+  @apply bg-zinc-50
+}
+
+.night .menu-btn{
+  @apply text-zinc-800 bg-zinc-50/10 ring-zinc-950/50 hover:bg-zinc-200/50 hover:text-zinc-950 
+}
+
+body.night header{
+  @apply from-zinc-50 
+}
+
+.night .navbar{
+  @apply bg-zinc-950/10 ring-zinc-950/15
+}
+
+body.night .nav-link{
+  @apply text-zinc-950/50
+}
+
+body.night .nav-link.active{
+  @apply text-zinc-950
+}
+
+.night .nightPara,.night .smText{
+  @apply text-zinc-50
+}
+
+.night .skillCards{
+  @apply ring-zinc-200 hover:bg-zinc-200 hover:ring-zinc-300
+}
+
+body.night .skillCards figure{
+  @apply bg-zinc-200/50 
+}
+
+.night .skillCards h3{
+  @apply text-zinc-950
+}
+
+.night .skillCards h3~p{
+  @apply text-zinc-500
+}
+
+.night .projectCard{
+  @apply bg-zinc-300 hover:bg-zinc-400 text-zinc-800
+}
+
+.night .projectCard .nightLabel{
+  @apply text-zinc-700 bg-zinc-50/50
+}
+
+.night .contact .para{
+  @apply text-zinc-600
+}
+
+.night .contact a{
+  @apply text-zinc-950 ring-zinc-800 hover:text-zinc-50 hover:bg-zinc-800
+}
+
+.night .label{
+  @apply text-zinc-800
+}
+
+.night .text-field{
+  @apply bg-zinc-200 
+}
+
+.night #footer p{
+  @apply text-zinc-800
+}
+
+.night #footer a~p{
+  @apply text-zinc-400
+}
+
+.night #footer a~p span{
+  @apply text-zinc-800
+}
+
+/* day */
 
 .menu-btn {
   @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/10 backdrop-blur-2xl hover:cursor-pointer hover:bg-zinc-50/15

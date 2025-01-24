@@ -5,7 +5,7 @@ const ButtonPrimary = ({ href, target = "_self", label, icon, classes }) => {
   if (href) {
     return (
       <>
-        <a href={href} target={target} className={"btn btn-primary " + classes}>
+        <a href={href} target={target} download className={"btn btn-primary " + classes}>
           {label}
 
           {icon ? (
