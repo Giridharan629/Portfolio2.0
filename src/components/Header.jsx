@@ -13,7 +13,7 @@ const Header = () => {
         <h1>
           <a href="/" className="logo">
             <img
-              src="/images/favicon.svg"
+              src="/images/favicon1.png"
               width={40}
               height={40}
               alt="Giri Dharan"
