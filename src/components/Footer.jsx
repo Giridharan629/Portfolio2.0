@@ -16,8 +16,8 @@ const sitemap = [
       href: '#work'
     },
     {
-      label: 'Reviews',
-      href: '#reviews'
+      label: 'Cirtifications',
+      href: '#cirtifications'
     },
     {
       label: 'Contact me',
@@ -28,24 +28,20 @@ const sitemap = [
   const socials = [
     {
       label: 'GitHub',
-      href: 'https://www.github.com/codewithsadee-org'
+      href: 'https://github.com/Giridharan629'
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/codewithsadee'
+      href: 'https://www.linkedin.com/in/giri-dharan-044463245/'
     },
     {
       label: 'Twitter X',
-      href: 'https://x.com/codewithsadee_'
+      href: 'https://x.com/GIRIDHARAN87787?t=Xm84p8GOIMG1RpioMlPC6Q&s=09'
     },
     {
       label: 'Instagram',
-      href: 'https://www.instagram.com/codewithsadee'
+      href: 'https://www.instagram.com/myself_giridharan?igsh=MXY2amM1eXhuN3UweQ=='
     },
-    {
-      label: 'CodePen',
-      href: 'https://codepen.io/codewithsadee'
-    }
   ];
 
 
