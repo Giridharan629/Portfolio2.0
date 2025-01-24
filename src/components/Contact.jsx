@@ -2,7 +2,7 @@ import React from "react";
 
 const socialLinks = [
   {
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/Giridharan629",
     icon: (
       <svg
         width="24"
@@ -20,7 +20,7 @@ const socialLinks = [
     alt: "GitHub",
   },
   {
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/in/giri-dharan-044463245/",
     icon: (
       <svg
         width="24"
@@ -38,7 +38,7 @@ const socialLinks = [
     alt: "LinkedIn",
   },
   {
-    href: "https://x.com/codewithsadee_",
+    href: "https://x.com/GIRIDHARAN87787?t=Xm84p8GOIMG1RpioMlPC6Q&s=09",
     icon: (
       <svg
         width="24"
@@ -56,7 +56,7 @@ const socialLinks = [
     alt: "Twitter X",
   },
   {
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/myself_giridharan?igsh=MXY2amM1eXhuN3UweQ==",
     icon: (
       <svg
         width="25"
@@ -158,7 +158,7 @@ const Contact = () => {
                 id="message"
                 placeholder="Hi!"
                 required
-                className="text-field resize-y min-h-32 max-h-80"
+                className="text-field resize-y min-h-32 max-h-80 scrollbar-thin scrollbar-track-transparent"
                 >
                 </textarea>
             </div>
