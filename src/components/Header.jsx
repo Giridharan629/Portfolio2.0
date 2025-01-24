@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
-  const [nightMode, setNightModde] = useState(false);
+  const [nightMode, setNightModde] = useState(true);
 
   useEffect(nightActivation,[nightMode])
 
