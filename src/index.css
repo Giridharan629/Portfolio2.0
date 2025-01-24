@@ -147,6 +147,10 @@ body.night .skillCards figure{
   @apply text-zinc-800
 }
 
+.night #home .status{
+  @apply text-zinc-700
+}
+
 /* day */
 
 .menu-btn {

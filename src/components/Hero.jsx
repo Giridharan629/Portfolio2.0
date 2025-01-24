@@ -17,7 +17,7 @@ const Hero = () => {
                 className=""
               />
             </figure>
-            <div className=" flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
+            <div className=" status flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
               <span className=" relative h-2 w-2 rounded-full bg-emerald-400">
                 <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
               </span>
