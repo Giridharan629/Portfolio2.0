@@ -13,11 +13,13 @@ const Header = () => {
 
   function nightActivation(){
     document.body.classList.toggle("night")
-    console.log("printing")
+    localStorage.setItem("themeMode",nightMode)
+    console.log(localStorage)
+
   }
 
   return (
-    <header className="fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-gradient-to-b from-zinc-900 to-zinc-900/0">
+    <header className="header fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-gradient-to-b from-zinc-900 to-zinc-900/0">
       <div
         className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center
     md:px-6 md:grid md:grid-cols-[1fr,3fr,1fr]"
@@ -33,8 +35,8 @@ const Header = () => {
           </a>
         </h1>
 
-        <div className="flex items-center  gap-5">
-          <div className="menu-btn md:invisible" onClick={()=>setNightModde(!nightMode)}>
+        <div className="flex items-center justify-center gap-5">
+          <div className="menu-btn md:hidden" onClick={()=>setNightModde(!nightMode)}>
             {nightMode ? (
               <span className="material-symbols-rounded">dark_mode</span>
             )
@@ -58,7 +60,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-5 max-md:hidden">
+        <div className="flex items-center justify-end gap-5 max-md:hidden">
 
 
         <div className="menu-btn " onClick={()=>setNightModde(!nightMode)}>
