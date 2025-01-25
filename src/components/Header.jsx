@@ -5,10 +5,15 @@ const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
   const [nightMode, setNightModde] = useState(true);
 
+  useEffect(()=>{
+    document.body.classList.add("night")
+  },[])
+  
   useEffect(nightActivation,[nightMode])
 
   function nightActivation(){
     document.body.classList.toggle("night")
+    console.log("printing")
   }
 
   return (
