@@ -68,7 +68,7 @@ body {
 /* .night */
 
 body.night{
-  @apply bg-zinc-50
+  @apply bg-zinc-100
 }
 
 .night .menu-btn{
@@ -76,7 +76,7 @@ body.night{
 }
 
 body.night header{
-  @apply from-zinc-50 
+  @apply from-[#ced0e5]
 }
 
 .night .navbar{

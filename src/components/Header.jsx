@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
-  const [nightMode, setNightModde] = useState(true);
+  const [nightMode, setNightModde] = useState(false);
 
   useEffect(nightActivation,[nightMode])
 
@@ -31,9 +31,10 @@ const Header = () => {
         <div className="flex items-center  gap-5">
           <div className="menu-btn md:invisible" onClick={()=>setNightModde(!nightMode)}>
             {nightMode ? (
-              <span className="material-symbols-rounded">dark_mode</span>
-            ) : (
               <span className="material-symbols-rounded">light_mode</span>
+            )
+            :(
+              <span className="material-symbols-rounded">dark_mode</span>
             )}
           </div>
 
