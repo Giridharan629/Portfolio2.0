@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
-  const [nightMode, setNightModde] = useState(true);
+  const [nightMode, setNightModde] = useState(false);
 
   useEffect(()=>{
     document.body.classList.add("night")
