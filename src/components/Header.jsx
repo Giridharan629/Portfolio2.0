@@ -8,7 +8,7 @@ const Header = () => {
   useEffect(()=>{
     document.body.classList.add("night")
   },[])
-  
+
   useEffect(nightActivation,[nightMode])
 
   function nightActivation(){
@@ -36,10 +36,10 @@ const Header = () => {
         <div className="flex items-center  gap-5">
           <div className="menu-btn md:invisible" onClick={()=>setNightModde(!nightMode)}>
             {nightMode ? (
-              <span className="material-symbols-rounded">light_mode</span>
+              <span className="material-symbols-rounded">dark_mode</span>
             )
             :(
-              <span className="material-symbols-rounded">dark_mode</span>
+              <span className="material-symbols-rounded">light_mode</span>
             )}
           </div>
 
