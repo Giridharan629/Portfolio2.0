@@ -112,7 +112,7 @@ body.night .nav-link.active{
 }
 
 .night .skillCards{
-  @apply ring-zinc-200 hover:bg-zinc-200/50 hover:ring-zinc-300 hover:shadow-customShadow
+  @apply ring-zinc-200 hover:bg-zinc-200/50 hover:ring-zinc-300 
 }
 
 body.night .skillCards figure{
