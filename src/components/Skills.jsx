@@ -63,6 +63,31 @@ const skillItem = [
     desc: "API Testing",
   },
   {
+    imgSrc: "/images/vite.svg",
+    label: "Vite",
+    desc: "Next Gen Frontend Tooling",
+  },
+  {
+    imgSrc: "/images/mysql.svg",
+    label: "MySQL",
+    desc: "SQL Database",
+  },
+  {
+    imgSrc: "/images/npm.svg",
+    label: "NPM",
+    desc: "Package Manager",
+  },
+  {
+    imgSrc: "/images/materialui.svg",
+    label: "Material UI",
+    desc: "React Components",
+  },
+  {
+    imgSrc: "/images/chakraui.svg",
+    label: "Chakra UI",
+    desc: "React Components",
+  },
+  {
     imgSrc: "/images/photoshop.svg",
     label: "Adobe Photoshop",
     desc: "Image Editing",
