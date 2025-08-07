@@ -43,6 +43,26 @@ const skillItem = [
     desc: "User Interface",
   },
   {
+    imgSrc: "/images/java.svg",
+    label: "Java",
+    desc: "Programing Language",
+  },
+  {
+    imgSrc: "/images/vscode.svg",
+    label: "VS Code",
+    desc: "Code Editor",
+  },
+  {
+    imgSrc: "/images/intellij.svg",
+    label: "Intellij idea",
+    desc: "Code Editor",
+  },
+  {
+    imgSrc: "/images/postman.svg",
+    label: "Postman",
+    desc: "API Testing",
+  },
+  {
     imgSrc: "/images/photoshop.svg",
     label: "Adobe Photoshop",
     desc: "Image Editing",
@@ -52,6 +72,7 @@ const skillItem = [
     label: "Adobe Illustrator",
     desc: "Designing",
   },
+  
 ];
 
 const Skills = () => {
