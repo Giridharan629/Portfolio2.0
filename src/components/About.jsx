@@ -5,7 +5,7 @@ const About = () => {
 
     const aboutItems = [
         {
-          label: 'Project done',
+          label: "Project's done",
           number: 7
         },
         // {
